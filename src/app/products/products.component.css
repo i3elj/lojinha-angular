@@ -1,0 +1,36 @@
+#products {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4rem;
+  margin: 5% 0;
+}
+
+.product {
+  width: 14rem;
+  margin: auto;
+  background-color: #f9f9f9;
+  transition: 350ms;
+}
+
+.product:hover {
+  background-color: #f0f0f0;
+}
+
+section > div > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+section > div > a > button {
+  transition: 100ms;
+}

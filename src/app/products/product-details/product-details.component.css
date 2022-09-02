@@ -1,0 +1,27 @@
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10rem 0;
+}
+
+p {
+  width: 16rem;
+  background-color: #f9f9f9;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section > div {
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+label > input {
+  width: 36px;
+}

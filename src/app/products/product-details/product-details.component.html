@@ -1,0 +1,9 @@
+<section>
+  <p>{{ product?.id }}</p>
+  <div>
+    <h1>{{ product?.title }} - {{ product?.description }}</h1>
+    <label>Quantity: <input [(ngModel)]="amount" type="number" min="1" max="10"> unity</label>
+    <h3>{{ product?.price | currency: "BRL" }}</h3>
+    <form><button (click)="addToCart()" type="button">Add to Cart</button></form>
+  </div>
+</section>

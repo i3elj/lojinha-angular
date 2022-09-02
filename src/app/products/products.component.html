@@ -1,0 +1,10 @@
+<section id="products">
+  <div class="product" *ngFor="let product of products">
+    <a routerLink="/products/{{product.id}}">
+      <h2>{{ product.title }}</h2>
+      <p>{{ product.price | currency: "BRL" }} </p>
+      <p>{{ product.description }}</p>
+      <button type="button">Add to Cart</button>
+    </a>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  background-color: #f9f9f9;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+}
+
+address { text-align: center; }
+address > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 14rem;
+}
